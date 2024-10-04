@@ -83,8 +83,6 @@ export default {
                 this.myPokemon.image = pokemon['sprites']['other']['official-artwork']['front_default']
                 this.myPokemon.abilities = pokemon.abilities
 
-                console.log(this.myPokemon)
-
                 this.id = ""
 
             } catch (error) {
